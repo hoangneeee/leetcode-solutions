@@ -1,0 +1,16 @@
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+tab_width = 2
+ij_continuation_indent_size = 2
+indent_style = space
+insert_final_newline = false
+max_line_length = 120
+trim_trailing_whitespace = false
+
+[*.ts]
+quote_type = single
+ij_typescript_use_double_quotes = false
+ij_typescript_force_quote_style = true
+ij_javascript_spaces_within_imports = true

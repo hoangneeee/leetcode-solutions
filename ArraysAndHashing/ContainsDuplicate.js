@@ -7,8 +7,8 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-var containsDuplicate = function(nums) {
-    const newArr = [...new Set(nums)];
-    if (newArr.length === nums.length) return false;
-    return true;
+var containsDuplicate = function (nums) {
+  const newArr = [...new Set(nums)];
+  if (newArr.length === nums.length) return false;
+  return true;
 };
