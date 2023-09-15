@@ -3,7 +3,7 @@ function carFleet(target: number, position: number[], speed: number[]): number {
   for (let i = 0; i < position.length; i++) {
     cars.push([position[i], speed[i]]);
   }
-  
+
   cars.sort((a, b) => b[0] - a[0]);
   let fleets = 0;
   let arrivalTime = 0;
@@ -19,4 +19,4 @@ function carFleet(target: number, position: number[], speed: number[]): number {
   return fleets;
 }
 
-console.log('result ',carFleet(12, [10,8,0,5,3],[2,4,1,1,3]));
+console.log('result ', carFleet(12, [10, 8, 0, 5, 3], [2, 4, 1, 1, 3]));

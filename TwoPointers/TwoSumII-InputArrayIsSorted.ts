@@ -9,6 +9,6 @@ function twoSum(numbers: number[], target: number): number[] {
     hash[n] = i;
   }
   return [];
-};
+}
 
 console.log(twoSum([2, 7, 11, 15], 9));
