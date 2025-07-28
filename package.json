@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "prettier:fix": "prettier --write \"**/*.{ts,js}\""
+    "prettier:fix": "prettier --write \"**/*.{ts,js}\"",
+    "run:ts": "ts-node"
   },
   "devDependencies": {
     "prettier": "^3.0.2",
